@@ -1,0 +1,12 @@
+module.exports={
+    google:{
+        clientID:'273825207417-7scfrl5ss12l73jim5c9msuef30956jn.apps.googleusercontent.com',
+        clientSecret:'aOvB_UnmzfAE2d1NSF5FS4uz'
+    },
+    mongodb:{
+        dbURI:'mongodb://newuser:pratyush_11@ds123556.mlab.com:23556/oauthtest'
+    },
+    session:{
+        cookieKey:'pratyushisawesome'
+    }
+}
