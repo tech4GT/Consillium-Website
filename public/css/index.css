@@ -6,8 +6,17 @@
     text-align: center;
 }
 
+#service-container .row{
+    width: 100%;
+}
+
 .services{
     text-align: center;
+    padding: 10px;
+}
+
+.services:hover{
+    border: 1px dashed black;
 }
 
 #services-content{
@@ -33,4 +42,8 @@
 
 #form-area{
     text-align: center;
+}
+
+footer{
+    height: 0vh;
 }
