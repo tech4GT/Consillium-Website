@@ -37,13 +37,8 @@ mongoose.connect(keys.mongodb.dbURI,()=>{
 // Static Folder
 app.use(express.static(path.join(__dirname, '/public')));
 
-// Global Vars
-app.use(function (req, res, next) {
-  res.locals.success_msg = req.flash('success_msg');
-  res.locals.error_msg = req.flash('error_msg');
-  res.locals.error = req.flash('error');
-  res.locals.authdata = fbRef.getAuth();
-  res.locals.page = req.url;
+app.get('*', function(req, res, next){
+  res.locals.user = req.user || null;
   next();
 });
 
@@ -63,3 +58,5 @@ app.set('port', (process.env.PORT || 3000));
 app.listen(app.get('port'), function(){
   console.log('Server started on port: '+app.get('port'));
 });
+
+module.exports = app;

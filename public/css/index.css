@@ -1,0 +1,36 @@
+#description{
+    position: relative;
+    display: block;
+    margin: auto;
+    font-size: 22;
+    text-align: center;
+}
+
+.services{
+    text-align: center;
+}
+
+#services-content{
+    margin: auto;
+}
+
+#description blockquote{
+    margin: auto;
+}
+
+#services-content{
+    text-align: center;
+}
+
+#map{
+    height: 30vh;
+    width: 100%;
+}
+
+.footer{
+    height: 10px;
+}
+
+#form-area{
+    text-align: center;
+}

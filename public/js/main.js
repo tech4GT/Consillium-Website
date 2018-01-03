@@ -53,4 +53,15 @@ $(document).ready(function() {
 		$('.nav-toggle').toggleClass('close-nav');
 		nav.toggleClass('open');
 	});
+
+	// Send e-mail
+	$(function () {
+      $('#mail-btn').click(function (event) {
+        var email = 'fes.consilium@gmail.com';
+        var subject = 'Contact FES';
+        // var emailBody = 'Hi Sample,';
+        // var attach = 'path';
+        document.location = "mailto:"+email+"?subject="+subject+"&body="+emailBody; /*+"?attach="+attach;*/
+      });
+    });
 });

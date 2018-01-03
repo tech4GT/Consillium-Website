@@ -9,7 +9,7 @@
 <meta charset="utf-8">
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Flosix - Bootstrap template, Creative One Page Template</title>
+<title>Consilium'18</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/flexslider.css">
 <link rel="stylesheet" href="css/jquery.fancybox.css">
@@ -18,6 +18,8 @@
 <link rel="stylesheet" href="css/animate.min.css">
 <link rel="stylesheet" href="css/font-icon.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -34,6 +36,7 @@
           <li><a href="#teams">Our Team</a></li>
           <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Login</a></li>
         </ul>
       </nav>
       <a href="#" class="nav-toggle">Menu<span></span></a> </div>
@@ -43,9 +46,9 @@
   <div class="container">
     <div class="col-md-10 col-md-offset-1">
       <div class="banner-text text-center">
-        <h1>Flosix</h1>
-        <p>Design Studio from Australia</p>
-        <nav role="navigation"> <a href="#services" class="banner-btn"><img src="images/down-arrow.png" alt=""></a></nav>
+        <h1>Consilium</h1>
+        <p>The NSIT Business Conclave</p>
+        <nav role="navigation"> <a href="#intro" class="banner-btn"><img src="images/down-arrow.png" alt=""></a></nav>
       </div>
       <!-- banner text --> 
     </div>
@@ -62,7 +65,7 @@
             <div class="col-md-6">
               <div class="avatar"> <img src="images/intro-img1.jpg" alt="" class="img-responsive"> </div>
             </div>
-            <div class="col-md-6">
+            <div id="description" class="col-md-6 text-center">
               <blockquote>
                 <h1>We create Awesome Branding</h1>
                 <p>Susan Sims, Interaction Designer at XYZCras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.Cras mattis consectetur purus sit amet fermentum.Interaction Designer at XYZCras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.Cras mattis consectetur purus sit amet fermentum. </p>
@@ -74,7 +77,7 @@
             <div class="col-md-6">
               <div class="avatar"> <img src="images/intro-img2.jpg" alt="" class="img-responsive"> </div>
             </div>
-            <div class="col-md-6">
+            <div id="description" class="col-md-6 text-center">
               <blockquote>
                 <h1>We create Digital Experience </h1>
                 <p>Susan Sims, Interaction Designer at XYZCras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.Cras mattis consectetur purus sit amet fermentum.Interaction Designer at XYZCras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.Cras mattis consectetur purus sit amet fermentum. </p>
@@ -95,37 +98,37 @@
     <div class="row">
       <div class="col-md-4 col-sm-6 services"> <span class="icon icon-strategy"></span>
         <div class="services-content">
-          <h5>Strategy & Consulting</h5>
+          <h5>Shatranj</h5>
           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 services"> <span class="icon icon-briefcase"></span>
         <div class="services-content">
-          <h5>corporate identity</h5>
+          <h5>Consilium Case Challenge</h5>
           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 services"> <span class="icon icon-tools"></span>
         <div class="services-content">
-          <h5>web design and development</h5>
+          <h5>Netaji Subhash Business Case</h5>
           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 services"> <span class="icon icon-genius"></span>
         <div class="services-content">
-          <h5>Branding</h5>
+          <h5>Mock Stock</h5>
           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 services"> <span class="icon icon-megaphone"></span>
         <div class="services-content">
-          <h5>Digital marketing</h5>
+          <h5>Quiz</h5>
           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 services"> <span class="icon icon-trophy"></span>
         <div class="services-content">
-          <h5>Promotion material</h5>
+          <h5>Hackathon</h5>
           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
         </div>
       </div>
@@ -345,10 +348,64 @@
 <!-- Testimonials section --> 
 <!-- Get a quote section -->
 <section id="contact" class="section quote">
-  <div class="container">
-    <div class="col-md-8 col-md-offset-2 text-center">
+  <div class="container" style="text-align:center;">
+    <!-- <div class="col-md-8 col-md-offset-2 text-center">
       <h3>Looking for a new brand? Let's work together!</h3>
-      <a href="#" class="btn btn-large">Get Quotation</a> </div>
+      <a href="#" class="btn btn-large">Get Quotation</a> 
+    </div> -->
+
+    <div id="form-area" class="col-md-8 animate-box text-center">
+      <div class="contact-container">
+        <h3>Get In Touch</h3>
+        <form action="mailto:fes.consilium@gmail.com" method="post" enctype="text/plain">
+          <div class="row form-group">
+            <div class="col-md-12">
+              <label class="sr-only" for="name">Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Your Name">
+            </div>
+          </div>
+
+          <div class="row form-group">
+            <div class="col-md-12">
+              <label class="sr-only" for="email">Email</label>
+              <input type="text" id="email" class="form-control" placeholder="Your email address">
+            </div>
+          </div>
+
+          <div class="row form-group">
+            <div class="col-md-12">
+              <label class="sr-only" for="subject">Subject</label>
+              <input type="text" id="subject" class="form-control" placeholder="Subject of this message">
+            </div>
+          </div>
+
+          <div class="row form-group">
+              <div class="col-md-12">
+                <select name="event-name" style="width:100%; ">
+                  <option value="Shatranj" selected>Shatranj</option>
+                  <option value="Consilium Case Simulatio">Consilium Case Simulation</option>
+                  <option value="Netaji Subhas Business Case">Netaji Subhas Business Case</option>
+                  <option value="Mock Stock">Mock Stock</option>
+                  <option value="Quiz">Quiz</option>
+                  <option value="Hackathon">Hackathon</option>
+                </select>
+              </div>
+          </div>
+          
+          <div class="row form-group">
+            <div class="col-md-12">
+              <label class="sr-only" for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="What do you want to ask us ?"></textarea>
+            </div>
+          </div>
+
+         
+          <div class="form-group">
+            <input type="submit" value="Send" class="btn btn-primary btn-lg" id="send_message">
+          </div>
+
+        </form>
+      </div>
   </div>
 </section>
 <!-- Get a quote section --> 
@@ -357,32 +414,28 @@
   <div class="footer-top section">
     <div class="container">
       <div class="row">
-        <div class="footer-col col-md-6">
-          <h5>Our Office Location</h5>
-          <p>Collins Street West Victoria 8007 Australia.<br>
-            1800 1234 56789 / 98532100987<br>
-            support@flosix.com</p>
-          <p>Copyright © 2015 Flosix Inc. All Rights Reserved. Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Designstub</a></p>
-        </div>
         <div class="footer-col col-md-3">
+          <h5>Get in touch</h5>
+          <p>Netaji Subhas Institute of Technology<br>
+            Sector-3, Dwarka<br>
+            <a href="tel://9899648649"></a>+91 98996 48649‬ | <a href="tel://9899922460"></a>+91 98999 22460‬<br>
+            <a href="mailto:fes.consilium@gmail.com?Subject=Website%20Query">fes.consilium@gmail.com</a></p>
+            <p>Copyright © 2018 FES,NSIT <br><br>
+            Made by Pratyush & Rahul</a></p>
+        </div>
+        <div class="footer-col col-md-5">
           <h5>Services We Offer</h5>
-          <p>
-          <ul>
-            <li><a href="#">Digital Strategy</a></li>
-            <li><a href="#">Websites</a></li>
-            <li><a href="#">Videography</a></li>
-            <li><a href="#">Social Media</a></li>
-            <li><a href="#">User Experience</a></li>
-          </ul>
-          </p>
+          <div class="map" id="map">
+              <iframe width="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJKRPFmDUFDTkR4vzrso_h-Nk&key=AIzaSyAkCWSTHwfamrr5s8xtmgGQe79lRdur5S4" allowfullscreen></iframe>
+            </div>
         </div>
-        <div class="footer-col col-md-3">
+        <div class="footer-col col-md-2">
           <h5>Share with Love</h5>
           <ul class="footer-share">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="https://www.facebook.com/consiliumfes/"><i class="fa fa-facebook"></i></a></li>
+            <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+            <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
+            <li><a href="mailto:fes.consilium@gmail.com?Subject=Website%20Query"><i class="fa fa-google-plus"></i></div></a></li>
           </ul>
         </div>
       </div>
